@@ -30,12 +30,12 @@ h1{
   margin: 0;
 }
 .p2{
-    line-height: 2;
+  line-height: 2;
 	display: block;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	font-size: 18px;
-	padding: 0 15% 0 15%;
+	/* padding: 0 15% 0 15%; */
 }
 h2{
    color: #0f4c75;
@@ -376,7 +376,7 @@ ul li a:hover{
 .contact-me{
 	width: 50%;
 	margin-left: 25%;
-	margin-bottom: 28%;
+	margin-bottom: 25%;
 }
 
 #top-cloud {
