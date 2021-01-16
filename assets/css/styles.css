@@ -266,6 +266,12 @@ ul li a:hover{
   width: 80px;
   margin: 0 15px;
 }
+
+.jquery-img, .ajax-img {
+  width: 180px;
+  margin: 0 15px;
+}
+
 .project1{
   width: 100%;
   height: auto;
@@ -348,7 +354,7 @@ ul li a:hover{
 .contact-me{
 	width: 50%;
 	margin-left: 25%;
-	margin-bottom: 55%;
+	margin-bottom: 15%;
 }
 
 #top-cloud {
@@ -661,10 +667,12 @@ ul li a:hover{
     font-size: 30px;
   }
   .contact-me{
-    margin-bottom: 100%;
+    margin-bottom: 10%;
     width: 90%;
     margin-left: 5%;
   }
+
+
   #f{
     height: 800px;
   }
