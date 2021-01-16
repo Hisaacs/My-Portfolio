@@ -354,7 +354,7 @@ ul li a:hover{
 .contact-me{
 	width: 50%;
 	margin-left: 25%;
-	margin-bottom: 15%;
+	margin-bottom: 25%;
 }
 
 #top-cloud {
@@ -667,7 +667,7 @@ ul li a:hover{
     font-size: 30px;
   }
   .contact-me{
-    margin-bottom: 10%;
+    margin-bottom: 100%;
     width: 90%;
     margin-left: 5%;
   }
@@ -722,7 +722,6 @@ ul li a:hover{
 
   .btn, .btn-message {
    size: 5px;
-
     
 }
 
