@@ -475,14 +475,14 @@ ul li a:hover {
   height: 120px;
   position: absolute;
   left: 15%;
-  top: 75px;
+  top: 120px;
   border-radius: 50%;
 }
 
 .link {
   display: flex;
   position: absolute;
-  top: 0%;
+  top: 15%;
   left: 41%;
 }
 
@@ -504,7 +504,7 @@ ul li a:hover {
   padding: 10px;
   display: flex;
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 48%;
   transform: translate(-50%);
 }
@@ -802,14 +802,14 @@ ul li a:hover {
     height: 120px;
     position: absolute;
     left: 15%;
-    top: 90px;
+    top: 120px;
     border-radius: 50%;
   }
 
   .link {
     display: flex;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 41%;
 
   }
@@ -826,12 +826,13 @@ ul li a:hover {
 
   /* Media query */
   .footer-social-icons ul {
-    margin: 0px;
-    padding: 10px;
-    display: flex;
-    position: absolute;
-    top: 40%;
-    left: 55%;
+      margin: 0px;
+      padding: 10px;
+      display: flex;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%);
   }
 
   .footer-social-icons ul li a {
@@ -863,7 +864,7 @@ ul li a:hover {
     /* font-size: 2rem;
     left: 16%; */
     position: absolute;
-    bottom: 10%;
+    bottom: 7%;
     left: 41%;
     text-align: center;
     color: #EAF6F6;
