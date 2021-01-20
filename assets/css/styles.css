@@ -562,8 +562,7 @@ ul li a:hover{
   color: #000;
 }
 
-/* @media screen and (max-width: 1050px) */
-@media (max-width: 375){
+ @media all and (max-width: 500px) {
   header{
     padding: 3% 5%;
   }
@@ -736,8 +735,13 @@ ul li a:hover{
   }
 
   .footer-social-icons ul {
-    width: 150px;
-    height: 150px;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%);
 
   }
   .copyright{
