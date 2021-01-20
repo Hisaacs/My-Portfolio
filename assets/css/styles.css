@@ -564,7 +564,7 @@ ul li a:hover{
 
 /* Mobile layout */
 
- @media all and (max-width: 500px) {
+ @media (max-width: 500px) {
   header{
     padding: 3% 5%;
   }
@@ -725,8 +725,8 @@ ul li a:hover{
   .footer-social-icons ul li a{
     position: relative;
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     text-align: center;
     line-height: 90px;
     background: #fff;
