@@ -571,7 +571,7 @@ ul li a:hover{
     height: 180px;
   }
   ul li a{
-    font-size: 3rem;
+    font-size: 2rem;
   }
   h1{
     font-size: 250px;
@@ -723,10 +723,10 @@ ul li a:hover{
   .footer-social-icons ul li a{
     position: relative;
     display: block;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     text-align: center;
-    line-height: 90px;
+    line-height: 100px;
     background: #fff;
     border-radius: 50%;
     font-size: 30px;
