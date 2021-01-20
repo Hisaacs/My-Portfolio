@@ -7,6 +7,9 @@ body {
   border-radius: 50%;
 }
 
+.navbar-nav li a {
+ font-size: 2rem;
+}
 h1 {
   color: #0f4c75;
   font-family: 'Tangerine', cursive;
@@ -645,6 +648,10 @@ ul li a:hover {
     width: 180px;
     height: 180px;
   }
+
+  .navbar-nav li a {
+    font-size: 3rem;
+   }
 
   ul li a {
     font-size: 1rem;
