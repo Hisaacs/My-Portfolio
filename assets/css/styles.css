@@ -620,9 +620,11 @@ ul li a:hover{
     font-size: 140px;
   }
   .p2{
-    line-height: 1.2;
-    font-size: 55px;
-    padding: 0;
+    line-height: 2;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
   }
   hr{
     width: 10%;
@@ -636,7 +638,7 @@ ul li a:hover{
     width: 90%;
   }
   h3{
-    font-size: 60px;
+    font-size: 80px;
   }
   p{
     line-height: 1.2;
@@ -712,21 +714,32 @@ ul li a:hover{
   }
   /* Media query */
   .footer-social-icons ul{
+    margin: 0px;
+    padding: 10px;
+    display: flex;
     position: absolute;
     top: 30%;
     left: 55%;
   }
   .footer-social-icons ul li a{
-    width: 150px;
-    height: 150px;
-    font-size: 80px;
-    line-height: 145px;
+    position: relative;
+    display: block;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: -5s;
   }
 
-  /* .footer-social-icons ul {
-    top: 20%;
-    left: 15%;
-  } */
+  .footer-social-icons ul {
+    width: 150px;
+    height: 150px;
+
+  }
   .copyright{
     font-size: 2rem;
     left: 16%;
