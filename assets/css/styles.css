@@ -34,7 +34,7 @@ h1{
 	display: block;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 25px;
 	/* padding: 0 15% 0 15%; */
 }
 h2{
@@ -44,7 +44,7 @@ h2{
    margin-top: 20px;
 }
 h3{
-  font-family: 'Baloo Chettan 2', cursive;	
+  font-family: 'Baloo Chettan 2', cursive;
   color: #3282b8;
   padding: 0px;
 }
@@ -55,7 +55,7 @@ h3{
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  line-height: 0;
+  line-height: 1;
 }
 .head3{
   color: #fff;
@@ -72,10 +72,10 @@ p{
 	padding: 0 auto 0 auto;
 }
 .p3{
-  line-height: 1.5;
+  line-height: 2;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 25px;
   padding: 0 5% 0 5%;
   color: #fff;
 }
@@ -86,15 +86,6 @@ p{
 .projectslink:hover{
   color: #000;
 }
-/* hr{
-	margin: 80px auto 80px auto;
-	border-style: dotted none none;
-	border-width: 5px;
-	width: 5%;
-  border-color: #3282b8;
-  margin-bottom: 10px;
-
-} */
 
 .hr-content {
   margin: 80px auto 80px auto;
@@ -272,7 +263,8 @@ ul li a:hover{
 }
 .middle-container{
 	background-color: white;
-	text-align: center;
+  text-align: center;
+  margin-bottom: 25%;
 }
 .profile{
 	width: 50%;
@@ -313,7 +305,7 @@ ul li a:hover{
   color: #fff;
   background: #4299ed;
   border-radius: 30px;
-  padding: 16px 86px;
+  padding: 16px 30px;
   text-align: center;
   letter-spacing: 0.5px;
   text-decoration: none;
@@ -346,7 +338,7 @@ ul li a:hover{
 }
 .btn4:hover{
   background: #192430;
-}  
+}
 .btn5{
   background: #374760;
 }
@@ -376,7 +368,7 @@ ul li a:hover{
 .contact-me{
 	width: 50%;
 	margin-left: 25%;
-	margin-bottom: 25%;
+	margin-bottom: 15%;
 }
 
 #top-cloud {
@@ -399,12 +391,12 @@ ul li a:hover{
 	bottom: 0;
   left: 25%;
   z-index: 1;
-  
+
 }
 .midlogo {
     padding-top: 20px;
     border-radius: 50%;
- 
+
 }
 #f{
 	position: fixed;
@@ -414,14 +406,14 @@ ul li a:hover{
 	background-color: #1b262c;
 	width: 100%;
 	height: 200px;
-	
+
 }
 .flogo{
 	width: 85px;
 	height: 85px;
 	position: absolute;
 	left: 15%;
-  top: 45%;
+  top: 15%;
   border-radius: 50%;
 }
 .link{
@@ -441,12 +433,13 @@ ul li a:hover{
 .footer-link:hover {
   color: #EAF6F6;
 }
+/* Desktop layout */
 .footer-social-icons ul{
     margin: 0px;
     padding: 10px;
     display: flex;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 48%;
     transform: translate(-50%);
 }
@@ -492,7 +485,7 @@ ul li a:hover{
   position: absolute;
   bottom: 1%;
   left: 41%;
-  text-align: center;	
+  text-align: center;
   color: #EAF6F6;
   font-size: 0.85rem;
 }
@@ -570,7 +563,7 @@ ul li a:hover{
 }
 
 /* @media screen and (max-width: 1050px) */
-@media (max-width: 1280){
+@media (max-width: 375){
   header{
     padding: 3% 5%;
   }
@@ -616,19 +609,19 @@ ul li a:hover{
   .profile{
     width: 90%;
     margin-left: 5%;
-    
+
   }
   .midlogo{
     width: 310px;
     height: 310px;
-    
+
   }
   h2{
     font-size: 140px;
   }
   .p2{
     line-height: 1.2;
-    font-size: 60px;
+    font-size: 55px;
     padding: 0;
   }
   hr{
@@ -685,16 +678,16 @@ ul li a:hover{
   }
   .mainbtn{
     line-height: 200px;
-    padding: 20px 150px;
+    width: 2%;
+    padding: 16px 10px;
     border-radius: 0%;
     font-size: 30px;
   }
   .contact-me{
-    margin-bottom: 100%;
-    width: 90%;
+    margin-top: 50px;
+    width: 190%;
     margin-left: 5%;
   }
-
 
   #f{
     height: 800px;
@@ -717,9 +710,11 @@ ul li a:hover{
     padding: 28px 35px;
     right: 27%;
   }
+  /* Media query */
   .footer-social-icons ul{
-    top: 62%;
-    left: 50%;
+    position: absolute;
+    top: 30%;
+    left: 55%;
   }
   .footer-social-icons ul li a{
     width: 150px;
@@ -728,6 +723,10 @@ ul li a:hover{
     line-height: 145px;
   }
 
+  /* .footer-social-icons ul {
+    top: 20%;
+    left: 15%;
+  } */
   .copyright{
     font-size: 2rem;
     left: 16%;
@@ -745,8 +744,8 @@ ul li a:hover{
 
   .btn, .btn-message {
    size: 5px;
-    
+
 }
 
-} 
+}
 
