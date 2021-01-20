@@ -562,6 +562,8 @@ ul li a:hover{
   color: #000;
 }
 
+/* Mobile layout */
+
  @media all and (max-width: 500px) {
   header{
     padding: 3% 5%;
@@ -571,7 +573,7 @@ ul li a:hover{
     height: 180px;
   }
   ul li a{
-    font-size: 2rem;
+    font-size: 1rem;
   }
   h1{
     font-size: 250px;
@@ -582,7 +584,7 @@ ul li a:hover{
     margin: 280px auto 0 auto;
   }
   #p1{
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .top-container {
     height: 1400px;
@@ -652,7 +654,7 @@ ul li a:hover{
     line-height: 1;
   }
   .p3{
-    font-size: 45px;
+    font-size: 40px;
   }
   .front{
     width: 45%;
@@ -734,7 +736,7 @@ ul li a:hover{
     transition: -5s;
   }
 
-  .footer-social-icons ul {
+  .footer-social-icons ul li {
     margin: 0px;
     padding: 10px;
     display: flex;
