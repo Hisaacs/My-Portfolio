@@ -802,7 +802,7 @@ ul li a:hover {
     height: 120px;
     position: absolute;
     left: 15%;
-    top: 115px;
+    top: 90px;
     border-radius: 50%;
   }
 
@@ -830,7 +830,7 @@ ul li a:hover {
     padding: 10px;
     display: flex;
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 55%;
   }
 
